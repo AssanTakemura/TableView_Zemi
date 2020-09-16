@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C3716625121BEC00840F57 /* nobita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C3716325121BEC00840F57 /* nobita.jpg */; };
+		24C3716725121BEC00840F57 /* shizuka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C3716425121BEC00840F57 /* shizuka.jpg */; };
+		24C3716825121BEC00840F57 /* suneo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C3716525121BEC00840F57 /* suneo.jpg */; };
+		24C3716A25121BF600840F57 /* doraemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C3716925121BF600840F57 /* doraemon.jpg */; };
+		24C3716C25121BFE00840F57 /* takeshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C3716B25121BFE00840F57 /* takeshi.jpg */; };
 		3154E48C24F670E600F99AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154E48B24F670E600F99AE2 /* AppDelegate.swift */; };
 		3154E48E24F670E600F99AE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154E48D24F670E600F99AE2 /* SceneDelegate.swift */; };
 		3154E49024F670E600F99AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154E48F24F670E600F99AE2 /* ViewController.swift */; };
 		3154E49324F670E600F99AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3154E49124F670E600F99AE2 /* Main.storyboard */; };
 		3154E49524F670E800F99AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3154E49424F670E800F99AE2 /* Assets.xcassets */; };
 		3154E49824F670E800F99AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3154E49624F670E800F99AE2 /* LaunchScreen.storyboard */; };
+		3154E4A124F6710E00F99AE2 /* IntroduceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3154E49F24F6710E00F99AE2 /* IntroduceTableViewCell.xib */; };
+		3154E4A224F6710E00F99AE2 /* IntroduceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154E4A024F6710E00F99AE2 /* IntroduceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24C3716325121BEC00840F57 /* nobita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nobita.jpg; sourceTree = "<group>"; };
+		24C3716425121BEC00840F57 /* shizuka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shizuka.jpg; sourceTree = "<group>"; };
+		24C3716525121BEC00840F57 /* suneo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suneo.jpg; sourceTree = "<group>"; };
+		24C3716925121BF600840F57 /* doraemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doraemon.jpg; sourceTree = "<group>"; };
+		24C3716B25121BFE00840F57 /* takeshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takeshi.jpg; sourceTree = "<group>"; };
 		3154E48824F670E600F99AE2 /* TableView_Zemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView_Zemi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3154E48B24F670E600F99AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3154E48D24F670E600F99AE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		3154E49424F670E800F99AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3154E49724F670E800F99AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3154E49924F670E800F99AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3154E49F24F6710E00F99AE2 /* IntroduceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroduceTableViewCell.xib; sourceTree = "<group>"; };
+		3154E4A024F6710E00F99AE2 /* IntroduceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				3154E48B24F670E600F99AE2 /* AppDelegate.swift */,
 				3154E48D24F670E600F99AE2 /* SceneDelegate.swift */,
 				3154E48F24F670E600F99AE2 /* ViewController.swift */,
+				3154E4A024F6710E00F99AE2 /* IntroduceTableViewCell.swift */,
+				3154E49F24F6710E00F99AE2 /* IntroduceTableViewCell.xib */,
 				3154E49124F670E600F99AE2 /* Main.storyboard */,
+				24C3716325121BEC00840F57 /* nobita.jpg */,
+				24C3716925121BF600840F57 /* doraemon.jpg */,
+				24C3716B25121BFE00840F57 /* takeshi.jpg */,
+				24C3716425121BEC00840F57 /* shizuka.jpg */,
+				24C3716525121BEC00840F57 /* suneo.jpg */,
 				3154E49424F670E800F99AE2 /* Assets.xcassets */,
 				3154E49624F670E800F99AE2 /* LaunchScreen.storyboard */,
 				3154E49924F670E800F99AE2 /* Info.plist */,
@@ -125,9 +146,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C3716A25121BF600840F57 /* doraemon.jpg in Resources */,
+				24C3716825121BEC00840F57 /* suneo.jpg in Resources */,
 				3154E49824F670E800F99AE2 /* LaunchScreen.storyboard in Resources */,
 				3154E49524F670E800F99AE2 /* Assets.xcassets in Resources */,
+				24C3716625121BEC00840F57 /* nobita.jpg in Resources */,
 				3154E49324F670E600F99AE2 /* Main.storyboard in Resources */,
+				24C3716C25121BFE00840F57 /* takeshi.jpg in Resources */,
+				3154E4A124F6710E00F99AE2 /* IntroduceTableViewCell.xib in Resources */,
+				24C3716725121BEC00840F57 /* shizuka.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +168,7 @@
 				3154E49024F670E600F99AE2 /* ViewController.swift in Sources */,
 				3154E48C24F670E600F99AE2 /* AppDelegate.swift in Sources */,
 				3154E48E24F670E600F99AE2 /* SceneDelegate.swift in Sources */,
+				3154E4A224F6710E00F99AE2 /* IntroduceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
